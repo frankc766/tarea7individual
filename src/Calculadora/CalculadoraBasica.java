@@ -56,9 +56,10 @@ public class CalculadoraBasica extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(204, 255, 204));
-        jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 204, 51), new java.awt.Color(102, 153, 255), java.awt.Color.gray, new java.awt.Color(51, 255, 255)));
 
         pantalla.setBackground(new java.awt.Color(255, 255, 255));
+        pantalla.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         pantalla.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(0, 153, 153)));
         pantalla.setOpaque(true);
 
